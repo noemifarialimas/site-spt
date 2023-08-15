@@ -1,0 +1,60 @@
+section{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 ;
+    background-color:#012548;
+    overflow: hidden;
+}
+.slider-content{
+    width: 400%;
+    height:900px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 ;
+    background-color: #012548;
+    overflow: hidden;
+}
+.slider-content input, .img-mobile{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+
+    text-align: center;
+    transition: 3s;
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.slide-box h3 {
+    position: absolute;
+    top: 650px;
+    left: 450px;
+    font-size: 65px;
+    font-weight:700;
+    color: WHITE;
+    
+ 
+   
+}
+.slide-box button{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+.slide-box img{
+    width: 100%;
+    height: 110%;
+    margin-top: -3%;
+    opacity:0.4;
+
+
+}
+
+
+
